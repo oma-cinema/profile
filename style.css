@@ -1,0 +1,124 @@
+body {
+  color: 900048;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(images/fond1.jpg);
+
+}
+
+h1 {
+ color: 240041;
+ font-family: 'Roboto Slab', serif;
+}
+
+.image-container{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("images/photo.jpg");
+  background-size: cover;
+  margin: 0px auto;
+}
+
+h4 {
+  font-size: 16px;
+  color: rgb(36, 0, 65);
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  text-align: center;
+  /* This sets the width */
+  margin: 0 auto;
+}
+
+.homepage {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  width: 80px;
+  padding: 20px;
+  border: 2px solid;
+  border-color: #240041;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 10px auto;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #240041;
+  color: white;
+}
+
+.name {
+  padding: 80px;
+  font-size: 40px;
+}
+
+.card {
+  margin: 20px;
+  background: rgba(250,250,250,.1);                         /* White background */
+  padding: 100px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+  color: white;
+  height: 40px;
+  width: 40px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+/*.homepage {
+  background-image: url("images/background.jpeg")
+}*/
